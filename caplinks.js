@@ -1,1 +1,8 @@
-$('a[href]').text($('a[href]').text().toUpperCase());
+/*
+$('a:visible').each(function() {
+          $(this).css('text-transform', 'uppercase');
+});
+*/
+
+$('a:visible').css('text-transform','uppercase');
+
